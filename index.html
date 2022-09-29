@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <title>wikipedia_philosopyTree</title>
+</head>
+<body>
+   <label for="taal">taal:</label><input type="text" id="taal" name="taal" placeholder="en">
+   <label for="bpunt">beginpunt:</label><input type="text" id="bpunt" name="bpunt" placeholder="Special:Random">
+   <label for="epunt">eindpunt:</label><input type="text" id="epunt" name="epunt" placeholder="Philosophy">
+   <button type="button" id="addButton" >Voeg pad toe</button>
+   <hr>
+   <h1>Gevonden paden</h1>
+   <ul id="items">
+   </ul>
+   <div id="mynetwork"></div>
+   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/standalone/umd/vis-network.min.js" integrity="sha512-DOpf3tO7m7MJHkMMRRoNxiJL4CR+TFLYy2XnIOeTh26Hz8j8i9RHrVkXzh+AQ7mffzIFk538/zcQ3Yoo+7VISA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="frontEnd.js"></script>
+</body>
+</html>
